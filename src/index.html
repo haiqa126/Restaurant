@@ -168,7 +168,9 @@
 
     <!--Menu Section starts here-->
     <section class="menu bg-slate-700">
-      <div class="container mx-auto bg-orange-300">
+      <div
+        class="container mx-auto bg-orange-300 flex flex-col justify-center items-center"
+      >
         <div class="menu-head">
           <h2><b>Our Best Selling Food Items</b></h2>
           <p>
@@ -178,7 +180,7 @@
           </p>
         </div>
 
-        <div id="myBtnContainer" class="bg-yellow-400">
+        <div id="myBtnContainer" class="flex justify-between">
           <button
             class="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             onclick="filterSelection('New-Arrival')"
@@ -199,7 +201,7 @@
           </button>
         </div>
 
-        <div class="container content-center food-items bg-green-500">
+        <div class="food-items">
           <div class="filterDiv New-Arrival">Pizza</div>
           <div class="filterDiv New-Arrival">Burger</div>
           <div class="filterDiv Featured">Slush</div>
